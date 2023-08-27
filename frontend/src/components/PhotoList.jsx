@@ -56,12 +56,12 @@ const sampleDataForPhotoList = [
   },
 ];
 
+sampleDataForPhotoList.map(photo => {
+  console.log(photo);
+});
+
 const PhotoList = () => {
-  return (
-    <ul className="photo-list">
-      {/* Insert React */}
-    </ul>
-  );
+  return <ul className="photo-list">{/* Insert React */}</ul>;
 };
 
 export default PhotoList;
