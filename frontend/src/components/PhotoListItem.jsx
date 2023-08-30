@@ -2,7 +2,6 @@ import React from "react";
 
 import "../styles/PhotoListItem.scss";
 
-
 const sampleDataForPhotoListItem = {
   id: "1",
   location: {
